@@ -1,0 +1,105 @@
+
+/* QUI TUTTO E' SISTEMATO IN ORDINE DECRESCENTE DAL PIU' GENERICO AL PIU' SPECIFICO */
+
+*{
+  box-sizing: border-box;
+}
+
+
+body{
+  background-image: url(sfondo.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+
+nav{
+  background-color: #39ff14;
+  height:40px;
+  width: 80%;
+  margin: auto;
+}
+
+
+section{
+  margin-right:57%;
+  color:white;
+
+}
+
+
+header > img{
+  width: 20%;
+  margin-top: 8%;
+}
+
+
+header > h1{
+  color: #39ff14;
+}
+
+
+nav > input{
+  margin-top: 1.02%;
+}
+
+
+section > h2{
+  margin-top:6%;
+  margin-bottom:1%;
+  margin-right: 13%;
+  display: inline-block;
+}
+
+
+section > div{
+  margin-right: 10%;
+}
+
+
+.contenitore{
+  width:63%;
+  height:1000px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin-top: 2%;
+  border-radius: 30px;
+}
+
+
+.freccia:before {
+  content: "\21A6";
+}
+
+
+.batteria{
+  margin-right: 40%;
+}
+
+#carica1{
+  background-color:rgb(255, 213, 128);
+  width: 350px;
+  height: 30px;
+  border-radius:5px;
+  margin: auto;
+  margin-left: 23%;
+}
+
+#carica2{
+  background-color:rgb(50, 205, 50);
+  width: 650px;
+  height: 30px;
+  border-radius:5px;
+  margin: auto;
+  margin-left: 23%;
+}
+
+#carica3{
+  background-color:rgb(205, 92, 92);
+  width: 150px;
+  height: 30px;
+  border-radius:5px;
+  margin: auto;
+  margin-left: 23%;
+}
